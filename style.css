@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center form{
+    position: relative;
+    margin-top: 2rem;
+    background-color: blanchedalmond;
+    width: 450px;
+    height: 380px;
+}
+
+.center form table{
+    text-align: center;
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
+
+.center form table tr{
+    line-height: 60px;
+    font-size: 24px;
+}
+
+.center th{
+    padding-right: 40px;
+}
+
+.center input{
+    height: 30px;
+    text-align: center;
+    font-size: 18x;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sub{
+    position: absolute;
+    bottom: 0;
+    width: 450px;
+    background-color: greenyellow;
+    padding: 8px;
+}
+.align table{
+    width: 450px;
+    margin-top: 3rem;
+    border-collapse: collapse;
+}
+.align tr{
+    padding: 12px;
+}
+
+.align th{
+    padding: 12px;
+}

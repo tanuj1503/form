@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="center">
+        
+        <form>
+            <table>
+                <tr>
+                    <th>First Name </th>
+                    <td><input type="text" name="fname" id="fname" size="40"></td>
+                </tr>
+                <tr>
+                    <th>Last Name </th>
+                    <td><input type="text" name="lname" id="lname" size="40"></td>
+                </tr>
+                <tr>
+                    <th>Roll no </th>
+                    <td><input type="text" name="roll" id="roll" size="40"></td>
+                </tr>
+                <tr>
+                    <th>Semester </th>
+                    <td><input type="text" name="sem" id="sem" size="40"></td>
+                </tr>
+                <tr>
+                    <th>Book </th>
+                    <td><input type="text" name="book" id="book" size="40"></td>
+                </tr>
+                <input type="button" onclick="addrow()" value = "Submit" class="sub">
+            </table>
+        </form>
+        <div class="align">
+            <table id="show" border="1">
+               <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Roll no</th>
+                    <th>Semester</th>
+                    <th>Book</th>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
